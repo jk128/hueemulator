@@ -1,0 +1,382 @@
+{
+  "lights": {
+    "1": {
+      "state": {
+        "on": false,
+        "bri": 139,
+        "hue": 20,
+        "sat": 40,
+        "effect": "colorloop",
+        "xy": [
+          0.4219,
+          0.4122
+        ],
+        "ct": 154,
+        "alert": "select",
+        "colormode": "xy",
+        "reachable": true
+      },
+      "type": "Extended color light",
+      "name": "ikjhoihiohoi",
+      "modelid": "LCT003",
+      "manufacturername": "Philips",
+      "uniqueid": "00:17:23:01:89:23:42:59-1f",
+      "swversion": "5.50.1.19085"
+    },
+    "2": {
+      "state": {
+        "on": true,
+        "bri": 243,
+        "hue": 48270,
+        "sat": 232,
+        "effect": "colorloop",
+        "xy": [
+          0.168,
+          0.041
+        ],
+        "ct": 154,
+        "alert": "none",
+        "colormode": "xy",
+        "reachable": true
+      },
+      "type": "Extended color light",
+      "name": "Go 2",
+      "modelid": "LCT003",
+      "manufacturername": "Philips",
+      "uniqueid": "00:17:23:01:89:23:42:59-0a",
+      "swversion": "5.50.1.19085"
+    },
+    "3": {
+      "state": {
+        "on": true,
+        "bri": 30,
+        "hue": 10,
+        "sat": 60,
+        "effect": "colorloop",
+        "xy": [
+          0.4,
+          0.1
+        ],
+        "ct": 154,
+        "alert": "none",
+        "colormode": "ct",
+        "reachable": true
+      },
+      "type": "Extended color light",
+      "name": "LightStrip",
+      "modelid": "LCT003",
+      "manufacturername": "Philips",
+      "uniqueid": "00:23:23:44:89:89:42:59-1c",
+      "swversion": "5.50.1.19085"
+    },
+    "4": {
+      "state": {
+        "on": true,
+        "bri": 30,
+        "hue": 10,
+        "sat": 60,
+        "effect": "colorloop",
+        "xy": [
+          0.8,
+          0.5
+        ],
+        "ct": 154,
+        "alert": "lselect",
+        "colormode": "ct",
+        "reachable": true
+      },
+      "type": "Hue White Ambiance 4",
+      "name": "Hue White Ambiance",
+      "modelid": "LCT003",
+      "manufacturername": "Philips",
+      "uniqueid": "00:17:56:01:80:23:52:59-8c",
+      "swversion": "5.50.1.19085"
+    }
+  },
+  "groups": {
+    "1": {
+      "name": "Gruppe 1",
+      "lights": [
+        "1",
+        "2",
+        "3"
+      ],
+      "type": "Room",
+      "state": {
+        "all_on": false,
+        "any_on": true
+      },
+      "class": "Other",
+      "action": {
+        "on": true,
+        "bri": 40,
+        "hue": 40,
+        "sat": 20,
+        "effect": "colorloop",
+        "xy": [
+          0.5,
+          0.34
+        ],
+        "ct": 20,
+        "alert": "xy",
+        "colormode": "none",
+        "reachable": true
+      },
+      "recycle": true
+    },
+    "2": {
+      "name": "Gruppe 2",
+      "lights": [
+        "2",
+        "4"
+      ],
+      "type": "Room",
+      "state": {
+        "all_on": true,
+        "any_on": true
+      },
+      "class": "Other",
+      "action": {
+        "on": true,
+        "bri": 40,
+        "hue": 40,
+        "sat": 20,
+        "effect": "none",
+        "xy": [
+          0.65,
+          0.32
+        ],
+        "ct": 10,
+        "alert": "xy",
+        "colormode": "xy",
+        "reachable": true
+      },
+      "recycle": false
+    },
+    "3": {
+      "name": "Gruppe 3",
+      "lights": [
+        "2",
+        "4"
+      ],
+      "type": "Room",
+      "state": {
+        "all_on": false,
+        "any_on": false
+      },
+      "class": "Other",
+      "action": {
+        "on": true,
+        "bri": 40,
+        "hue": 40,
+        "sat": 20,
+        "effect": "none",
+        "xy": [
+          0.18,
+          0.65
+        ],
+        "ct": 10,
+        "alert": "lselect",
+        "colormode": "colorloop",
+        "reachable": true
+      },
+      "recycle": true
+    }
+  },
+  "config": {
+    "name": "Philips",
+    "zigbeechannel": 11,
+    "bridgeid": "001788FFFE2E261A",
+    "mac": "00:17:88:2e:26:3a",
+    "dhcp": true,
+    "ipaddress": "192.168.1.97",
+    "netmask": "255.255.255.0",
+    "gateway": "192.168.1.1",
+    "proxyaddress": "none",
+    "proxyport": 0,
+    "UTC": "2017-03-15T14:48:22",
+    "localtime": "2017-03-15T15:48:22",
+    "timezone": "Europe/Berlin",
+    "modelid": "BSB002",
+    "datastoreversion": "60",
+    "swversion": "01038390",
+    "apiversion": "1.17.0",
+    "swupdate": {
+      "updatestate": 0,
+      "checkforupdate": false,
+      "deviceTypes": {
+        "bridge": false
+      },
+      "url": "",
+      "text": "",
+      "notify": false
+    },
+    "linkbutton": false,
+    "portalservices": false,
+    "portalconnection": "disconnected",
+    "portalstate": {
+      "signedon": false,
+      "incoming": false,
+      "outgoing": false,
+      "communication": "disconnected"
+    },
+    "factorynew": false,
+    "backup": {
+      "status": "idle",
+      "errorcode": 0
+    },
+    "whitelist": {
+      "baydev": {
+        "last use date": "2017-03-22T20:42:17",
+        "create date": "2017-03-22T20:42:17",
+        "name": "baydev"
+      },
+      "iu042hmi9m11pm5rpf4ta06kol": {
+        "last use date": "2014-04-08T08:55:10",
+        "create date": "014-04-08T08:55:10",
+        "name": "GermanDevsHueEmulator"
+      },
+      "i7stk0j4a9ddtls7dnt49soo7h": {
+        "last use date": "2017-03-22T20:42:17",
+        "create date": "2017-03-22T20:42:17",
+        "name": "baydev"
+      },
+      "105oj8uftfa8afms303qn0tcdj": {
+        "last use date": "2014-04-08T08:55:10",
+        "create date": "014-04-08T08:55:10",
+        "name": "GermanDevsHueEmulator"
+      },
+      "tffoelh2cub9ogj3l7vo90qhqp": {
+        "last use date": "2014-04-08T08:55:10",
+        "create date": "014-04-08T08:55:10",
+        "name": "GermanDevsHueEmulator"
+      }
+    },
+    "internetservices": {
+      "remoteaccess": "disconnected"
+    }
+  },
+  "schedules": {
+    "1": {
+      "name": "PizzaTimer",
+      "description": "First Timer (Dummy)",
+      "command": {
+        "address": "/api/\u003cusername\u003e/groups/3/action",
+        "method": "POST",
+        "body": "{\n  \"on\": true\n}"
+      },
+      "localtime": "",
+      "time": "",
+      "created": "",
+      "status": "enabled",
+      "recycle": true,
+      "autodelete": true
+    },
+    "2": {
+      "name": "WakeUp Timer",
+      "description": "Second Timer (Dummy)",
+      "command": {
+        "address": "/api/\u003cusername\u003e/groups/2/action",
+        "method": "POST",
+        "body": "{\n  \"on\": true\n}"
+      },
+      "localtime": "",
+      "time": "",
+      "created": "",
+      "status": "enabled",
+      "recycle": true,
+      "autodelete": true
+    },
+    "3": {
+      "name": "Sleep Timer",
+      "description": "Third Timer (Dummy)",
+      "command": {
+        "address": "/api/\u003cusername\u003e/groups/1/action",
+        "method": "POST",
+        "body": "{\n  \"on\": true\n}"
+      },
+      "localtime": "",
+      "time": "",
+      "created": "",
+      "status": "enabled",
+      "recycle": true,
+      "autodelete": true
+    }
+  },
+  "scenes": {},
+  "rules": {
+    "1": {
+      "name": "Rule 1",
+      "owner": "Rule Owner",
+      "created": "none",
+      "lasttriggered": "0",
+      "timestriggered": 0,
+      "status": "enable",
+      "recycle": true,
+      "conditions": [
+        {
+          "address": "/sensors/2/state/buttonevent",
+          "operator": "dxx",
+          "value": "6"
+        },
+        {
+          "address": "/sensors/2/state/buttonevent",
+          "operator": "eq",
+          "value": "6"
+        },
+        {
+          "address": "/sensors/2/state/buttonevent",
+          "operator": "lt",
+          "value": "6"
+        }
+      ],
+      "actions": [
+        {
+          "address": "/groups/1/action",
+          "method": "PUSH",
+          "body": {
+            "number": 1.0,
+            "scene": "S1"
+          }
+        },
+        {
+          "address": "/groups/1/action",
+          "method": "PUSH",
+          "body": {
+            "number": 2.0,
+            "scene": "S2"
+          }
+        },
+        {
+          "address": "/groups/2/action",
+          "method": "PUSH",
+          "body": {
+            "number": 3.0,
+            "scene": "S3"
+          }
+        }
+      ]
+    }
+  },
+  "sensors": {
+    "1": {
+      "state": {
+        "lastupdated": "none"
+      },
+      "config": {
+        "on": true,
+        "reachable": true,
+        "sunsetoffset": -30,
+        "sunriseoffset": 30
+      },
+      "name": "Daylight",
+      "type": "Daylight",
+      "modelid": "PHDL00",
+      "manufacturername": "Philips Bridge",
+      "swversion": "1.0",
+      "recycle": true,
+      "uniqueId": "30:29:4b:e3:11:a3"
+    }
+  },
+  "resourceLinks": {}
+}
